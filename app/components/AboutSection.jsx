@@ -59,14 +59,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-start">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            <span className="p-2 pb-5">
+            <span className="p-2 pb-5 text-white">
               👋 Hello there! I'm Anuj Srivastava, a dedicated web developer
               with a keen focus on Next.js and JavaScript. Currently navigating
               the exciting realm of the MERN Stack, I am on a mission to craft
               seamless and innovative web experiences. <br />
             </span>{" "}
             <br />
-            <span>
+            <span className="p-2 pb-5 text-white">
               🖥️ In my professional journey, I wear multiple hats. As a Junior
               QT QML developer at Bridge Healthcare, I delve into the
               intricacies of QT C++ and QML, contributing to both research and
@@ -76,7 +76,7 @@ const AboutSection = () => {
               <br />
             </span>
             <br />
-            Let's create something extraordinary together! 💻✨
+           <span className="p-2 pb-5 text-white">Let's create something extraordinary together! 💻✨</span> 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
